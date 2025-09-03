@@ -1,0 +1,53 @@
+/* App.css */
+
+/* Reset some defaults */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background: #f4f6f8; /* light gray background */
+  color: #333;
+}
+
+/* Center the app */
+.MuiContainer-root {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 32px !important;
+  margin-top: 40px;
+}
+
+/* Heading */
+.MuiTypography-h3 {
+  font-weight: 700;
+  color: #1976d2; /* Material UI primary blue */
+  text-align: center;
+}
+
+/* TextField tweaks */
+.MuiTextField-root {
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+/* Add spacing between form elements */
+.form-section {
+  margin-bottom: 20px;
+}
+
+/* Button styling if you add one later */
+.custom-button {
+  background: #1976d2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.custom-button:hover {
+  background: #1565c0;
+}
